@@ -1,0 +1,242 @@
+
+  * {
+      box-sizing: border-box;
+      text-decoration: none;
+  }
+ 
+
+  /* .name-logo {
+    margin-right: 20px;
+    position: absolute;
+    margin-top: 0;
+    width: 20%;
+    background-color: #4aaaa5;
+    padding-right: 0;
+} */
+
+.logo {
+    background-color: #4aaaa5;
+    height: 76px;
+    width: 20%;
+    text-align: center;
+    margin: 0;
+    float: left; 
+    position: relative;
+    left: 100px;
+   
+}  
+
+.links {
+    padding-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+    position: relative;
+}
+
+nav a:first-child {
+    height: 30px;
+}
+
+ .content {
+    width: 960px;
+    padding-left: 30px;
+    margin-left: 200px;
+    margin: auto;
+    /* flex: 1 0 auto; Tried to do sticky footer? This is my 3rd attempt*/
+}
+
+/* .input {
+    width: 40px;
+    height: 600px;
+    display: inline-block;
+} */
+
+.main {
+    width: 650px;
+    float: left;
+    padding-bottom: 40px; 
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 60px;
+    border: 1px solid gainsboro;
+    margin-bottom: 100px;
+    
+}
+
+.sidebar {
+    width: 270px;
+    float: right;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 60px;
+    border: 1px solid gainsboro;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    line-height: 1.75;
+}
+
+.connect {
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    /* float: right; */
+   
+}
+
+.about {
+    float: right;
+    display: inline;
+    width: 10%;
+    /* padding-top: 20px; */
+    border-right: 1px solid gainsboro;
+}
+
+.portfolio {
+    float: right;
+    display: inline;
+    width: 10%;
+    height: 40px;
+    /* padding-top: 10px; */
+    border-right: 1px solid gainsboro;
+}
+
+.contact {
+    float: right;
+    display: inline;
+    width: 10%;
+    height: 40px;
+    /* padding-right:  */
+    border-right: 1px solid gainsboro;
+}
+
+
+li a {
+    display: inline;
+    float: left;
+    text-decoration: none;
+    color: gray;
+} 
+
+ 
+
+h1 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #f5fafa;
+    
+} 
+
+ h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid gainsboro;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+body {
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url("../images/linedpaper.png");
+}
+
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+.image {
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 40px;
+    bottom: 0;
+    border-top: 5px solid #4aaaa5;
+    width: 100%;
+}  
+
+.connect {
+    
+}
+
+/* contact.html specific CSS below */
+ 
+.form {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.name-label {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.mail-label {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.message-label {
+    padding-left: 20px;
+    padding-top: 15px;
+
+}
+
+label, input {
+    display: block;
+}
+
+.button {
+    /* background-color: #4aaaa5;
+    color: white; */
+    padding-top: 15px;
+    padding-left: 20px;
+} 
+
+/*portfolio.html specific CSS below */
+
+.resize {
+    width: 200px;
+    height: 200px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.images {
+   padding-left: 30px;
+}
+
+#hangman {
+    margin-right: 100px;
+}
+
+
+
+
