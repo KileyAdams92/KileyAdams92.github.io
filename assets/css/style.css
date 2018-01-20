@@ -282,11 +282,23 @@ placeholder {
     margin-right: 100px;
 } */
 
-/* .input {
-    width: 40px;
-    height: 600px;
-    display: inline-block;
-} */
+textarea {
+    min-width: 500px;
+    min-height: 200px;
+}
+
+input {
+    min-width: 500px;
+}
+
+button {
+    background-color: #4aaaa5;
+    font-size: 15px;
+    min-width: 100px;
+    min-height: 40px;
+    color: white;
+    border: none;
+}
 
 
 
