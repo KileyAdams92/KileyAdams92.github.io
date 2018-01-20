@@ -6,15 +6,11 @@
  
 
   .name-logo {
-    /* margin-right: 20px;
-    position: absolute;
-    margin-top: 0; */
     width: 100%;
     height: 100%;
     background-color: #4aaaa5;
     margin: 0;
     padding-top: 35px;
-    /* padding-right: 0; */
 }
 
 .logo {
@@ -24,15 +20,10 @@
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    /* margin: 0; */
-    /* float: left;  */
-    /* position: relative; */
-    /* left: 100px; */
-   
+    
 }  
 
 .links {
-    /* padding-bottom: 30px; */
     border-bottom: 1px solid gainsboro;
     height: 100%;
     display: inline-block;
@@ -45,23 +36,15 @@ nav {
     float: right;
    
 }
-/* nav a:first-child {
-    height: 30px;
-} */
 
  .content {
     width: 960px;
     padding-left: 30px;
     margin-left: 200px;
     margin: auto;
-    /* flex: 1 0 auto; Tried to do sticky footer? This is my 3rd attempt*/
 }
 
-/* .input {
-    width: 40px;
-    height: 600px;
-    display: inline-block;
-} */
+
 
 .main {
     width: 650px;
@@ -105,19 +88,14 @@ ul {
 
 li {
     list-style-type: none;
-    /* margin: 0; */
     padding-top: 35px;
     text-align: center;
     height: 100%;
     display: inline-block;
     width: 25%;
-    /* border-right: 1px solid gainsboro */
-    /* float: right; */
-   
 }
 
 li a {
-    /* display: inline; */
     float: left;
     text-decoration: none;
     color: gray;
@@ -150,7 +128,6 @@ body {
 header {
     background-color: #ffffff;
     border-color: #cccccc;
-    /* margin-top: 0; */
     width: 100%;
     height: 100px;
 }
@@ -174,10 +151,6 @@ footer {
     border-top: 5px solid #4aaaa5;
     width: 100%;
 }  
-
-.connect {
-    
-}
 
 /* contact.html specific CSS below */
  
@@ -231,6 +204,12 @@ label, input {
 #hangman {
     margin-right: 100px;
 }
+
+/* .input {
+    width: 40px;
+    height: 600px;
+    display: inline-block;
+} */
 
 
 
