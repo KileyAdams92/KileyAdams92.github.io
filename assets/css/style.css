@@ -194,17 +194,86 @@ label, input {
 .resize {
     width: 200px;
     height: 200px;
+    margin-right: 80px;
+    padding-bottom: 40px;
     /* padding-left: 20px;
     padding-right: 20px; */
 }
 
 .images {
-   padding-left: 30px;
+   padding-left: 80px;
+   position: relative;
+   width: 100%;
 }
 
 #hangman {
-    margin-right: 100px;
+    position: absolute; 
+    top: 95px; 
+    left: 80px; 
+    width: 200px;
+    color: white;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
+
+#rpg {
+    position: absolute; 
+    top: 95px; 
+    left: 364px; 
+    width: 200px;
+    color: white;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#trivia {
+    position: absolute; 
+    top: 297px; 
+    left: 80px; 
+    width: 200px;
+    color: white;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#widget {
+    position: absolute; 
+    top: 297px; 
+    left: 364px; 
+    width: 200px;
+    color: white;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#rps {
+    position: absolute; 
+    top: 501px; 
+    left: 80px; 
+    width: 200px;
+    color: white;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* .textimage {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; */
+
+/* #random1 {
+    margin-right: 100px;
+} */
 
 /* .input {
     width: 40px;
